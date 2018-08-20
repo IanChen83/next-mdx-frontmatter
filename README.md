@@ -21,7 +21,7 @@ let config = {}
 
 // ...rest of your config
 
-config = withMdxFm()(config) // Or withMdxMf(MdxFmOptions)(config)
+config = withMdxFm()(config) // Or withMdxFm(MdxFmOptions)(config)
 
 module.exports = config
 ```
@@ -71,7 +71,7 @@ import Article, { title, description, published } from './article.mdx'
 ### Options
 
 * `extension` (**default:** `/\.mdx$/`): the file extension matched with the resource.
-* `MDXOption` (**default:** `{}`): the options passed to [MDX options](https://github.com/mdx-js/mdx#options).
+* `MDXOption` (**default:** `{}`): the options passed as [MDX options](https://github.com/mdx-js/mdx#options).
 
 ## License
 
