@@ -1,6 +1,6 @@
 {
   "name": "next-mdx-frontmatter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use MDX + front-matter with Next.js",
   "main": "n/a",
   "scripts": {
